@@ -4,7 +4,7 @@ const Listing = require("../models/listing.js");
 const wrapAsync = require("../utils/wrapAsync.js");
 const {isloggedin ,isOwner ,validatelisting} = require("../middlewares.js");
 const multer  = require('multer');
-const {storage } = require("../cloudConfig.js");
+const {storage} = require("../cloudConfig.js");
 const upload = multer({ storage });
 
 
